@@ -1,0 +1,158 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Rampukar Yadav. Fictional person for preview purposes :) I'm working with newest front-end frameworks like React. My Passion is For Computers in all kind of Perspectives .I am Learning FullStack Developer(MERN🧱) and i also like to Contribute opensource projects 👉🔧.I buid ⚙ things/Projects related to Web Devlopment/FrameWorks(React❤).I also like to use GitHub, I use GitHub for Saving my code and I Spend Most of My time With 💻🖱. Thank you 💜",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "amazon prime video",
+        "startDate": "2021",
+        "description": "Amazon Prime Video, or simply Prime Video, is an American subscription video on-demand over-the-top streaming and rental service of Amazon offered as a standalone service or as part of Amazon's Prime subscription ",
+        "images": [
+          "images/portfolio/amazon-prime-video/p2.png",
+          "images/portfolio/amazon-prime-video/p1.png",
+          "images/portfolio/amazon-prime-video/p3.png"
+        ],
+        "url": "https://github.com/Imaryan08/primevideo",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Blinkit / Grofers",
+        "startDate": "2022",
+        "description": "Blinkit is an Indian instant delivery service. It was founded in December 2013 and is based out of Gurgaon. Customers of the company use a mobile application to order groceries and essentials online. Blinkit's employees then secure the items from their warehouse and deliver the items to the consumer within 10 minutes  :)",
+        "images": [
+          "images/portfolio/blinkit/p1.png",
+          "images/portfolio/blinkit/p2.png",
+          "images/portfolio/blinkit/p3.png"
+        ],
+        "url": "https://github.com/Imaryan08/blinkit",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "nodeJS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "mongoDB"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Self Ordering Kiosk",
+        "startDate": "2021",
+        "description": "One of the first apps self-ordering kiosk can be employed as a self-service food ordering system wherein the customers can place an order directly at the kiosk. The kiosk is a small free-standing physical structure that displays the entire menu for the customers to choose from.I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "images": [
+          "images/portfolio/self-ordering-kiosk/p1.png",
+          "images/portfolio/self-ordering-kiosk/p2.png",
+          "images/portfolio/self-ordering-kiosk/p3.png",
+          "images/portfolio/self-ordering-kiosk/p4.png",
+          "images/portfolio/self-ordering-kiosk/p5.png"
+        ],
+        "url": "https://github.com/Imaryan08/Restro-Self-Kiosk",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Masai School",
+        "title": "Student",
+        "mainTech": [
+          "Full Stack Web Developer"
+        ],
+        "technologies": [
+          "DSA",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "nodeJS",
+          "express",
+          "aws",
+          "React",
+          "React-Native",
+          "Redux"
+        ]
+      },
+      {
+        "company": "Primezone infotech private ltd",
+        "title": "Intern",
+        "mainTech": [
+          "PHP "
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "BootStrap",
+          "PHP",
+          "JavaScript"
+        ]
+      },
+      {
+        "company": "International Institute of technology & management",
+        "title": "Student",
+        "years": "",
+        "mainTech": ["Bachelor of Technology - Computer Science Engineering"],
+        "technologies": ["HTML", "CSS", "BootStrap", "C","C++","SE","CN","DSA","DBMS","LINUX"]
+      },
+      {
+        "company": "CBSE Board",
+        "years": "",
+        "mainTech": ["Completed HSC-Science"],
+        "technologies": [
+          "English",
+          "Maths",
+          "Chemistry",
+          "Physics",
+          "C++"
+        ]
+      }
+    ]
+  }

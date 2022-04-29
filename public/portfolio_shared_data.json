@@ -1,0 +1,93 @@
+{
+    "basic_info": {
+      "name": "Rampukar Yadav",
+      "titles": [ "Front-end Developer", "Full Stack Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/Imaryan08",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/rampukaryadav",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Medium",
+          "url": "https://medium.com/@imaryan08",
+          "class": "fab fa-medium"
+        },
+        {
+          "name": "Whatsapp",
+          "url": "https://wa.me/+919643579827" ,
+          "class": "fab fa-whatsapp"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/Imaryan08",
+          "class": "fab fa-instagram"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/Imaryan08",
+          "class": "fab fa-twitter"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "mongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "nodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "65"
+        },
+        {
+          "name": "express",
+          "class": "devicon-express-original",
+          "level": "80"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "90"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-original",
+          "level": "75"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "60"
+        }
+      ]
+    }
+  }
