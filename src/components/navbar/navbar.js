@@ -7,7 +7,7 @@ function Navbar() {
       <div className="menuParent"></div>
       <div className="menu">
         <a href="#about">
-          <h1>experience</h1>
+          <h1>About</h1>
         </a>
 
         <a href="#portfolio">
