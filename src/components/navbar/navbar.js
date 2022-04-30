@@ -1,54 +1,33 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './navbarStyles';
+import React from "react";
+import "./navbarStyles.css";
 
-const Navbar = () => (
-  <Container>
-    <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <img src="/logo.svg" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Rampukar</span>
+function Navbar() {
+  return (
+    <div className="grandMenu">
+      <div className="menuParent"></div>
+      <div className="menu">
+        <a href="#about">
+          <h1>About</h1>
         </a>
-      </Link>
-    </Div1>
-    <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#skills">
-          <NavLink>Skills</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
-        <a href="https://blog.vipuljha.com">
-          <NavLink>Blog</NavLink>
+
+        <a href="#portfolio">
+          <h1>Projects</h1>
         </a>
-      </li>
-    </Div2>
-    <Div3>
-      <SocialIcons href="https://github.com/lordarcadius">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/lordarcadius">
-        <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
-    </Div3>
-  </Container>
-);
+
+        <a href="#skills">
+          <h1>Skills</h1>
+        </a>
+
+        <a href="#resume">
+          <h1>Education</h1>
+        </a>
+
+        {/* <a href="http://bit.ly/rampukarresume">
+          <h1>Resume</h1>
+        </a> */}
+      </div>
+    </div>
+  );
+}
 
 export default Navbar;

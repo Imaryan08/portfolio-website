@@ -35,18 +35,26 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
+      <header
+        id="home"
+        style={{display: "block" }}
+      >
+        <div className="row aligner" >
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
+              <span
+                className="iconify header-icon"
+                data-icon="la:laptop-code"
+                data-inline="false"
+              ></span>
+              <br />
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
@@ -87,6 +95,24 @@ class Header extends Component {
                 }
                 id="icon-switch"
               />
+              <div>
+                <a href="http://bit.ly/rampukarresume" target="_blank">
+                  <button
+                    style={{
+                      border: "none",
+                      borderRadius: "4px",
+                      width: "100px",
+                      height: "40px",
+                      marginTop: "20px",
+                      background: "#151513",
+                      color: "#fff",
+                      fontSize: "15px",
+                    }}
+                  >
+                    Resume
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

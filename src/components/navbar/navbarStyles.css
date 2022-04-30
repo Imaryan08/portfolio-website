@@ -1,0 +1,30 @@
+.grandMenu{
+    display: flex;
+}
+.menuParent{
+    width: 20%;
+    background-color: black;
+}
+.menu{
+        display: flex;
+        justify-content: space-around;
+        background: black;
+        height: 90px;
+        width: 80%;
+        align-items: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+a:hover{
+    color: #e9d5a1 !important;
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px){
+  h1{
+     font-size: 14px !important; 
+  }
+}

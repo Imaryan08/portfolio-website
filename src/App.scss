@@ -25,14 +25,14 @@ html {
 }
 
 .header-icon {
-	height: 150px;
+	height: 150px;	
 	width: 150px;
 }
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	// height: 250px;
+	min-height: 250px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -43,8 +43,8 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
-	padding-bottom: 0;
+	padding-top: 50px;
+	// padding-bottom: 0;
 }
 
 .language-icon {
@@ -73,10 +73,11 @@ header {
 }
 
 .language {
+	height: 142px;
 	font-size: 25px;
 	background-color: #e9d5a1;
 	padding-bottom: 10px;
-	padding-top: 80px;
+	padding-top: 40px;
 }
 
 header h1 {

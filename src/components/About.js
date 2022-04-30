@@ -15,7 +15,7 @@ class About extends Component {
       var about = this.props.resumeBasicInfo.description;
     }
 
-    return (
+    return ( 
       <section id="about">
         <div className="col-md-12">
           <h1 style={{ color: "black" }}>
