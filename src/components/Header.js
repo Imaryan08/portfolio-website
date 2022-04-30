@@ -35,11 +35,8 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header
-        id="home"
-        style={{display: "block" }}
-      >
-        <div className="row aligner" >
+      <header id="home" style={{ display: "block" }}>
+        <div className="row aligner">
           <div className="col-md-12">
             <div>
               <span
@@ -96,7 +93,10 @@ class Header extends Component {
                 id="icon-switch"
               />
               <div>
-                <a href="http://bit.ly/rampukarresume" target="_blank">
+                <a
+                  href="https://drive.google.com/file/d/1pNgAoIdWrGi4ZzBS9ZNGECLDedsuTuQt/view?usp=sharing"
+                  target="_blank"
+                >
                   <button
                     style={{
                       border: "none",
