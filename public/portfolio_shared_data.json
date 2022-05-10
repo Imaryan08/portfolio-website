@@ -67,7 +67,7 @@
           "name": "nodeJS",
           "class": "devicon-nodejs-plain",
           "level": "65"
-        },
+        }, 
         {
           "name": "express",
           "class": "devicon-express-original",

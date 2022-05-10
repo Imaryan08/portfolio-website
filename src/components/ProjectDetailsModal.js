@@ -4,6 +4,9 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
+
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -77,7 +80,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3 style={{ padding: "5px 5px 0 5px"}}>
               {title}
               {url ? (
                 <a
@@ -88,7 +91,7 @@ class ProjectDetailsModal extends Component {
                 >
                   <i
                     className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
+                    style={{ marginLeft: "10px", color: 'black'}}
                   ></i>
                 </a>
               ) : null}
