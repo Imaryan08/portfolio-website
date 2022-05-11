@@ -20,6 +20,7 @@
           "images/portfolio/amazon-prime-video/p3.png"
         ],
         "url": "https://github.com/Imaryan08/primevideo",
+        "url1": "https://primevideo-omega.vercel.app",
         "technologies": [
           {
             "class": "devicon-html5-plain",
@@ -45,6 +46,7 @@
           "images/portfolio/blinkit/p3.png"
         ],
         "url": "https://github.com/Imaryan08/blinkit",
+        "url1": "https://blinkit.netlify.app",
         "technologies": [
           {
             "class": "devicon-html5-plain",
@@ -84,6 +86,7 @@
           "images/portfolio/self-ordering-kiosk/p5.png"
         ],
         "url": "https://github.com/Imaryan08/Restro-Self-Kiosk",
+        "url1": "https://restro-self-kiosk.vercel.app",
         "technologies": [
           {
             "class": "devicon-html5-plain",

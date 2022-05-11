@@ -14,6 +14,7 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var url1 = this.props.data.url1;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -93,30 +94,34 @@ class ProjectDetailsModal extends Component {
                     style={{ marginLeft: "10px", color: 'black'}}
                   ></i> */}
                   <button
-                  style={{
-                    marginLeft: "10px",
-                    color: "black",
-                    fontSize: "15px",
-                    fontFamily: "monospace",
-                    padding: "4px 8px",
-                    border: "none",
-                    borderRadius: "5px",
-                    background: "#e9d5a1",
-                  }}
-                >
-                  Github
-
-                  <AiOutlineGithub
                     style={{
                       marginLeft: "10px",
-                      color: "gray",
+                      color: "black",
                       fontSize: "15px",
+                      fontFamily: "monospace",
+                      padding: "4px 8px",
+                      border: "none",
+                      borderRadius: "5px",
+                      background: "#e9d5a1",
                     }}
+                  >
+                    Github
+                    <AiOutlineGithub
+                      style={{
+                        marginLeft: "10px",
+                        color: "gray",
+                        fontSize: "15px",
+                      }}
                     />
                   </button>
                 </a>
               ) : null}
-              <a href="">
+              <a
+                href={url1}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-href"
+              >
                 <button
                   style={{
                     marginLeft: "10px",
