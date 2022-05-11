@@ -4,8 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
-
-
+import { AiOutlineGithub } from "react-icons/ai";
 
 class ProjectDetailsModal extends Component {
   render() {
@@ -80,7 +79,7 @@ class ProjectDetailsModal extends Component {
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px"}}>
+            <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
               {url ? (
                 <a
@@ -89,12 +88,54 @@ class ProjectDetailsModal extends Component {
                   rel="noopener noreferrer"
                   className="link-href"
                 >
-                  <i
+                  {/* <i
                     className="fas fa-external-link-alt"
                     style={{ marginLeft: "10px", color: 'black'}}
-                  ></i>
+                  ></i> */}
+                  <button
+                  style={{
+                    marginLeft: "10px",
+                    color: "black",
+                    fontSize: "15px",
+                    fontFamily: "monospace",
+                    padding: "4px 8px",
+                    border: "none",
+                    borderRadius: "5px",
+                    background: "#e9d5a1",
+                  }}
+                >
+                  Github
+
+                  <AiOutlineGithub
+                    style={{
+                      marginLeft: "10px",
+                      color: "gray",
+                      fontSize: "15px",
+                    }}
+                    />
+                  </button>
                 </a>
               ) : null}
+              <a href="">
+                <button
+                  style={{
+                    marginLeft: "10px",
+                    color: "black",
+                    fontSize: "15px",
+                    fontFamily: "monospace",
+                    padding: "4px 8px",
+                    border: "none",
+                    borderRadius: "5px",
+                    background: "#e9d5a1",
+                  }}
+                >
+                  Demo
+                  <i
+                    className="fas fa-external-link-alt"
+                    style={{ marginLeft: "10px", color: "gray" }}
+                  ></i>
+                </button>
+              </a>
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">
